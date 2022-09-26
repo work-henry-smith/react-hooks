@@ -7,8 +7,8 @@ function Button() {
   
   return (
     <div>
-      <h1>the package is: {status}</h1>
-      <button onClick={() => setStatus('delivered already :D')}>Do it now</button>
+      <h3>the package is: {status}</h3>
+      <button onClick={() => setStatus('delivered already')}>Do it now</button>
     </div>
   )
 }
