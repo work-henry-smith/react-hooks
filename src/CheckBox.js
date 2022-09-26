@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from 'react';
 
 
-function App2() {
+function CheckBox() {
   const [checked, setChecked] = useState(false);
   
   return (
@@ -13,4 +13,4 @@ function App2() {
   )
 }
 
-export default App2;
+export default CheckBox;

@@ -2,7 +2,7 @@ import './App.css';
 import {useState} from 'react';
 
 
-function App1() {
+function Button() {
   const [status, setStatus] = useState('not delivered!');
   
   return (
@@ -13,4 +13,4 @@ function App1() {
   )
 }
 
-export default App1;
+export default Button;
