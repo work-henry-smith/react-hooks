@@ -1,19 +1,11 @@
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-function App() {
-  const result = useState();
-  return (
-    <div>
-      <h1>the package is:</h1>
-    </div>
-  )
-}
+import App2 from './App2'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App2 />
   </React.StrictMode>
 );
