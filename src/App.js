@@ -1,13 +1,14 @@
 import './App.css';
 import Button from './Button';
 import CheckBox from './CheckBox';
-import Star from './Star';
+import StarRating from './StarRating';
 
 function App() {
     return (
         <>
             <Button />
             <CheckBox />
+            <StarRating totalStars={10} />
         </>
     )
 }
